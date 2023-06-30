@@ -130,21 +130,19 @@
     color: #F13C6E;
 }
 
-.offers{
+.grey_bg{
     background-color: #E5E5E5;
+    padding: 5%;
 }
 
 .special{
-    display: flex;
-    padding-top: 80px;
-    margin-bottom: 38px;
-    margin-left: 12%;
+    margin-left: 6.5%;
+    margin-bottom: 3%;
 }
 
 .special > p {
     color: #000000;
     font-weight: 500;
-    /* font-weight: bolder; */
     font-size: 20px;
     white-space: nowrap;
 }
@@ -154,7 +152,6 @@
     justify-items: center;
     gap: 20px;
     justify-content: center;
-    padding-bottom: 5%;
 }
 
 .card{
@@ -197,7 +194,6 @@
     background-color: #F13C6E;
     color: #FFFFFF;
     border-radius: 30px;
-    /* margin-left: 12%; */
 }
 
 .button_offers:hover{
@@ -206,113 +202,98 @@
     color: #F13C6E;
 }
 
-.pink-boxes{
+.pink-boxes {
     display: flex;
     justify-content: center;
-    background-color: #E5E5E5;
-    padding-top: 30px;
-}
-
-.pink{
-    display: flex;
     gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.pink > .delivery{
+.pinkbox-card {
     background-color: #F13C6E;
-    color: #FFFFFF;
-    width: 540px;
-    height: 212px;
-    align-content: center;
+    padding: 35px 45px;
+    display: flex;
     align-items: center;
+    gap: 60px;
 }
 
-.pink > .delivery > h2{
-    font-weight: 700;
+.pinkbox-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.pinkbox-left > h2 { 
+    color: #FFF;
     font-size: 18px;
-    line-height: 21px;
-    padding-top: 35px;
-    margin-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.pink > .delivery > p{
-    font-weight: 400;
+.pinkbox-left > p {
+    color: #FFF;
     font-size: 14px;
-    line-height: 20px;
-    padding-bottom: 10px;
-    padding-top: 25px;
-    margin-left: 40px;
-}
-
-.pink > .delivery > input{
-    margin-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.625%;
+    width: 50%;
 }
 
 input[type=text] {
-    width: 45%;
     padding: 10px 20px;
     margin: 8px 0;
-    display: inline-block;
-    background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 30px;
-    box-sizing: border-box;
-  }
-
-.pink > .delivery > .envelope{
-    float: right;
-    margin-right: 45px;
 }
 
-.pink > .stores{
-    background-color: #F13C6E;
-    color: #FFFFFF;
-    width: 540px;
-    height: 212px;
+.pinkbox-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
 }
 
-.pink > .stores > h2{
-    font-weight: 700;
+.pinkbox-right > h2 { 
+    color: #FFF;
     font-size: 18px;
-    line-height: 21px;
-    padding-top: 35px;
-    margin-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.pink > .stores > p{
-    font-weight: 400;
+.pinkbox-right > p {
+    color: #FFF;
     font-size: 14px;
-    line-height: 20px;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    margin-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.625%;
+    width: 60%;
 }
 
-.stores > button{
+.pink_button {
     border: 2px solid #FFFFFF;
     padding: 11px 60px;
     background-color: #F13C6E;
     color: #FFFFFF;
     border-radius: 30px;
-    margin-left: 40px;
 }
 
-.pink_button:hover{
+.pink_button:hover {
     background-color: #FFFFFF;
     color: #F13C6E;
-}
-
-.pink > .stores > .truck{
-    float: right;
-    margin-right: 45px;
-
 }
 
 .impuls {
     display: flex;
     justify-content: center;
-    background-color: #E5E5E5;
-    padding-top: 100px;
+    margin-bottom: 5%;
 }
 
 .impuls_list{
@@ -321,8 +302,6 @@ input[type=text] {
     flex-wrap: wrap;
     background-color: #FFFFFF;
     justify-content: center;
-    /* margin-left: 12%;
-    margin-right: 12%; */
 }
 
 .impuls_item{
@@ -340,12 +319,17 @@ input[type=text] {
     gap: 30px;
 }
 
-.popular_categories > h1 {
+.pop_cat{
     border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 6%;
+    margin-bottom: 6%;
+}
+
+.pop_cat > h2 {
+    width: 40%;
     font-weight: 500;
     font-size: 16px;
     line-height: 140.62%;
-    padding-bottom: 10%;
 }
 
 .cat_item > a{
@@ -360,33 +344,31 @@ input[type=text] {
 
 .contactus{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 40px;
     padding: 38px 0;
     border-top: 1px solid #EFEFEF;
 }
 
-.contactus > .logos{
-    border: 2px solid #F13C6E;
-    background-color: white;
-    border-radius: 100%;
-    width: 45px;
-    height: 45px;
+.logos{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
 }
 
-.contactus > .tel{
+.tel_call{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.tel_call > .tel{
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #000;
-    padding-left: 30%;
 }
 
-.contactus > .cl{
+.tel_call > .cl{
     border: 2px solid #F13C6E;
     padding: 11px 60px;
     background-color: #FFFFFF;
@@ -401,7 +383,7 @@ input[type=text] {
 
 .end{
     background-color: #EFEFEF;
-    height: 64px;   
+    padding: 20px 0;   
     display: flex;
     align-items: center;
     justify-content: space-around;
